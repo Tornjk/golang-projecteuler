@@ -1,8 +1,8 @@
-package problem1
+package problems
 
 import "fmt"
 
-func Solve() {
+func Solve1() {
 	sum := 0
 	for i := 0; i < 1000; i += 3 {
 		sum += i;

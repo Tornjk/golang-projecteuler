@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/tornjk/golang-projecteuler/problem1"
-	"github.com/tornjk/golang-projecteuler/problem2"
+	"github.com/tornjk/golang-projecteuler/problems"
 )
 
 func main() {
-	problem1.Solve()
-	problem2.Solve()
+	problems.Solve1()
+	problems.Solve2()
+	problems.Solve3()
 }

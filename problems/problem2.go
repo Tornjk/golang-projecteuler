@@ -1,8 +1,8 @@
-package problem2
+package problems	
 
 import "fmt"
 
-func Solve() {
+func Solve2() {
 	fib := []int{1, 1}
 	for {
 		i := len(fib)-1
