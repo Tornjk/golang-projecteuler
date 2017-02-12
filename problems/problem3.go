@@ -18,7 +18,7 @@ func Solve3() {
 
 		if(b) {
 			prim = append(prim, i)
-			for reduced % i == 0 && reduced != 1 {
+			for reduced % i == 0 {
 				reduced /= i
 			}
 
